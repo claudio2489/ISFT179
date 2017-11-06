@@ -706,3 +706,15 @@ ul.social-network li a {
   height: 450px;
   overflow: auto;
 }
+
+
+
+@media (min-width: 768px) {
+
+    .brand-pills > li > a {
+        border-top-right-radius: 0px;
+    	border-bottom-right-radius: 0px;
+    }
+    
+
+}
