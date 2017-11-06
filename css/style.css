@@ -702,11 +702,7 @@ ul.social-network li a {
 
 }
 
-
-  ul.nav-pills {
-      top: 20px;
-      position: fixed;
-  }
-  div.col-8 div {
-      height: 500px;
-  }
+.scrollspy-example {
+  height: 450px;
+  overflow: auto;
+}
