@@ -156,7 +156,6 @@ section.box {
  ================= */
 
 .breadcrumb {
-	margin-top:50px;
 	text-align:center;
 	border-radius: 0;	
 }
@@ -690,14 +689,6 @@ ul.social-network li a {
 
   .section-white {
      padding: 1.5em 0;
-  }
-
-}
-
-@media screen and (min-width: 992px) {
-
-  .container {
-    max-width: 930px;
   }
 
 }
