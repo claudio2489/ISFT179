@@ -59,12 +59,17 @@
 	                    </li>
 	                    <li role="presentation" class="brand-nav">
 	                    	<a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">
-	                    		<i class="fa fa-list-alt fa-fw"></i>Datos Académicos
+	                    		<i class="fa fa-list-alt fa-fw"></i>Perfil del Usuario
 	                    	</a>
 	                    </li>
 	                    <li role="presentation" class="brand-nav">
 	                    	<a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">
-	                    		<i class="fa fa-list-alt fa-fw"></i>Perfil del suario
+	                    		<i class="fa fa-list-alt fa-fw"></i>Publicar noticias
+	                    	</a>
+	                    </li>
+	                    <li role="presentation" class="brand-nav">
+	                    	<a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab">
+	                    		<i class="fa fa-list-alt fa-fw"></i>Agregar concursos
 	                    	</a>
 	                    </li>
 	                </ul>
@@ -146,87 +151,8 @@
 								</fieldset>
 							</form>
 	                    </div>
-	                    
 
 	                    <div role="tabpanel" class="tab-pane" id="tab2">
-	 						<form class="form-horizontal">
-	 							<fieldset>
-	 							<legend>Formación Secundaria</legend>
-									<div class="form-group">
-									  	<label class="col-md-4 control-label" for="textinput">Establecimiento:</label>  
-									  	<div class="col-md-4">
-									  		<input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
-								  		</div>
-									</div>
-									<div class="form-group">
-									    <label class="control-label col-md-4" for="registration-date">Fecha de Finalización:</label>
-									    <div class="col-md-4">
-									        <div class="input-group registration-date-time">
-									        	<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></span>
-											    <input class="form-control" name="registration_date" id="registration-date" type="date">
-									        </div>
-									    </div>    
-									</div>
-									<div class="form-group">
-									  	<label class="col-md-4 control-label" for="textinput">Promedio:</label>  
-									  	<div class="col-md-4">
-									  		<input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
-								  		</div>
-									</div>
-									<div class="form-group">
-									  	<label class="col-md-4 control-label" for="textinput">Orientación:</label>  
-									  	<div class="col-md-4">
-									  		<input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
-								  		</div>
-									</div>
-									<span></span>
-								<legend>Datos Académicos actuales</legend>
-									<div class="form-group">
-									  	<label class="col-md-4 control-label" for="textinput">Legajo:</label>  
-									  	<div class="col-md-4">
-									  		<input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
-								  		</div>
-									</div>
-									<div class="form-group">
-									  	<label class="col-md-4 control-label" for="selectbasic">Carrera: </label>
-									  	<div class="col-md-4">
-									    	<select id="selectbasic" name="selectbasic" class="form-control">
-									      		<option value="1">Análisis de Sistemas</option>
-									      		<option value="2">Administración General</option>
-									      		<option value="3">Automatización, control y robótica</option>
-									      		<option value="4">Industria Textil</option>
-									      		<option value="5">Gastronomía</option>
-									      		<option value="6">Higiene y Seguridad</option>
-									      		<option value="7">Logística</option>
-									      		<option value="8">Turismo</option>
-									    	</select>
-									  	</div>
-									</div>   
-									<div class="form-group">
-									    <label class="control-label col-md-4" for="registration-date">Fecha de Inicio de cursada:</label>
-									    <div class="col-md-4">
-									        <div class="input-group registration-date-time">
-									        	<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></span>
-											    <input class="form-control" name="registration_date" id="registration-date" type="date">
-									        </div>
-									    </div>    
-									</div>
-									<div class="form-group">
-									  	<label class="col-md-4 control-label" for="textinput">e-mail:</label>  
-									  	<div class="col-md-4">
-									  		<input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
-									  	</div>
-									</div>
-									<div class="form-group">
-									  <label class="col-md-4 control-label" for="singlebutton"></label>
-									  <div class="col-md-4">
-									    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Guardar</button>
-									  </div>
-									</div>
-								</fieldset>
-							</form>
-	                    </div>
-	                    <div role="tabpanel" class="tab-pane" id="tab3">
 	 						<form class="form-horizontal">
 	 							<fieldset>
 								<legend>Perfil del Usuario</legend>
@@ -255,15 +181,83 @@
 									  </div>
 									</div>
 									<div class="form-group">
-									  	<label class="col-md-4 control-label" for="textinput">e-mail:</label>  
+									  <label class="col-md-4 control-label" for="singlebutton"></label>
+									  <div class="col-md-4">
+									    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Guardar</button>
+									  </div>
+									</div>
+								</fieldset>
+							</form>
+	                    </div>
+	                    
+	                    <div role="tabpanel" class="tab-pane" id="tab3">
+	 						<form class="form-horizontal">
+	 							<fieldset>
+								<legend>Publicar nueva noticia</legend>
+									<div class="form-group">
+									  	<label class="col-md-4 control-label" for="textinput">Titulo de la noticia:</label>  
 									  	<div class="col-md-4">
 									  		<input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
-									  	</div>
+								  		</div>
+									</div>
+									<div class="form-group">
+									  	<label class="col-md-4 control-label" for="textinput">Compartir Imagen:</label>  
+									  	<div class="col-md-4">
+									  		<input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+								  		</div>
+									</div> 
+									<div class="form-group">
+									  <label class="col-md-4 control-label" for="piNewPass">Agregar contenido</label>
+									  <div class="col-md-4">
+							    		<textarea class="form-control" id="exampleTextarea" rows="10"></textarea> 
+									  </div>
 									</div>
 									<div class="form-group">
 									  <label class="col-md-4 control-label" for="singlebutton"></label>
 									  <div class="col-md-4">
-									    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Guardar</button>
+									    <button type="submit" class="btn btn-success">Publicar Noticia</button>
+									  </div>
+									</div>
+								</fieldset>
+							</form>
+	                    </div>
+	                    
+
+	                    <div role="tabpanel" class="tab-pane" id="tab4">
+	 						<form class="form-horizontal">
+	 							<fieldset>
+								<legend>Agregar Datos del concurso</legend>
+									<div class="form-group">
+									  	<label class="col-md-4 control-label" for="textinput">Carrera:</label>  
+									  	<div class="col-md-4">
+									  		<input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+								  		</div>
+									</div>
+									<div class="form-group">
+									  	<label class="col-md-4 control-label" for="textinput">Materia:</label>  
+									  	<div class="col-md-4">
+									  		<input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+								  		</div>
+									</div>
+									<div class="form-group">
+									    <label class="control-label col-md-4" for="registration-date">Fecha del Concurso:</label>
+									    <div class="col-md-4">
+									        <div class="input-group registration-date-time">
+									        	<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></span>
+											    <input class="form-control" name="registration_date" id="registration-date" type="date">
+									        </div>
+									    </div>    
+									</div>
+									<div class="form-group">
+									  <label class="col-md-4 control-label" for="piNewPass">Observaciones</label>
+									  <div class="col-md-4">
+							    		<textarea class="form-control" id="exampleTextarea" rows="10"></textarea> 
+									  </div>
+									</div>
+									<div class="form-group">
+									  <label class="col-md-4 control-label" for="singlebutton"></label>
+									  <div class="col-md-4">
+									    <button type="submit" class="btn btn-success">Publicar Concurso</button>
 									  </div>
 									</div>
 								</fieldset>

@@ -709,3 +709,20 @@ ul.social-network li a {
     
 
 }
+
+
+#logueado {
+    min-height: 800px;
+}
+
+#login {
+    min-height: 800px;
+}
+
+#carreras {
+    min-height: 800px;
+}
+
+#concursos {
+    min-height: 800px;
+}
